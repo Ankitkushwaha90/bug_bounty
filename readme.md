@@ -29,3 +29,6 @@ Commands:
   status     Check the status of an on-demand scan.
   submit     Scan an IP/ netblock using Shodan.
 ```
+```cmd
+shodan count wordpress
+```
