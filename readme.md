@@ -31,4 +31,5 @@ Commands:
 ```
 ```cmd
 shodan count wordpress
+521246
 ```
