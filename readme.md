@@ -33,3 +33,24 @@ Commands:
 shodan count wordpress
 521246
 ```
+```cmd
+──(root㉿kali)-[/home/ankit]
+└─# shodan host 98.137.11.163                  
+98.137.11.163
+Hostnames:               yahoo.com;ca.my.yahoo.com;hk.rd.yahoo.com;ddl.fp.yahoo.com;add.my.yahoo.com;ca.rogers.yahoo.com;mbp.yimg.com;tw.rd.yahoo.com;media-router-fp74.prod.media.vip.gq1.yahoo.com;fr-ca.rogers.yahoo.com;s.yimg.com;brb.yahoo.net
+City:                    Quincy
+Country:                 United States
+Organization:            Oath Holdings Inc.
+Updated:                 2024-10-22T14:39:19.379823
+Number of open ports:    2
+
+Ports:
+     80/tcp  
+        |-- HTTP title: Yahoo
+    443/tcp  
+        |-- HTTP title: Yahoo
+        |-- Cert Issuer: C=US, OU=www.digicert.com, O=DigiCert Inc, CN=DigiCert SHA2 High Assurance Server CA
+        |-- Cert Subject: C=US, ST=New York, CN=yahoo.com, O=Yahoo Holdings Inc., L=New York
+        |-- SSL Versions: -SSLv2, -SSLv3, TLSv1, TLSv1.1, TLSv1.2, TLSv1.3
+
+```
